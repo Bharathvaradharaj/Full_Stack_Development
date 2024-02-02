@@ -1,0 +1,67 @@
+*{
+
+
+    margin: 0px;
+    padding: 0px
+    ;
+}
+
+body{
+
+    font-family: 'Gabarito', sans-serif;
+}
+
+.Udemy__Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    gap: 10px
+    ;
+    align-items: center;
+
+
+
+}
+.Udemy__s1__1{
+    margin-left: 10px;
+    
+    color: #A435F0;
+
+}
+
+
+.Udemy__s2{
+
+
+   padding: 10px;
+   width: 60%;
+    border: solid black 2px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.Udemy__s2 input{
+
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.Udemy__s2 input:focus{
+
+    outline: none;
+}
+
+.Udemy__s3{
+
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+.Udemy__s3 h4{
+
+   
+}
