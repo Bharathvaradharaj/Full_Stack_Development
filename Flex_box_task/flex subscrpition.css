@@ -1,0 +1,115 @@
+body{
+
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Sub__Header {
+
+    
+}
+
+.Sub__Header h2{
+
+  
+    background-color: #C76A9C;
+
+    
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    margin-top: 284px;
+    margin-left: 231px;
+    margin-right: 186px;
+}
+
+.Sub__Plan{
+
+    display: flex;
+  flex-grow: 1;
+    margin: 20px;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+  justify-content: center;
+   padding: 9px;
+   padding-left: 52px;
+   gap: 40px
+   ;
+
+}
+
+.Sub__plan__s1__1 h2{
+    margin: 10px;
+
+
+}
+
+.Sub__plan__s1__1{
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    width: 206px;
+    height: 282px;
+    text-align: center;
+
+}
+ 
+
+#Sub__plan__free{
+
+    font-size: 24px;
+    padding: 10px;
+    margin: 9px;
+
+}
+#Sub__plan__Premium,#Sub__plan__Standard{
+
+    font-size: 30px;
+    padding: 10px;
+    margin: -3px;
+}
+
+
+
+.Sub__plan__s1__1 p{
+
+    padding:  3px;
+    margin: 2px;
+    text-align: start;
+}
+
+/* .container{
+align-items: center;
+   margin: 10px;
+   padding: 10px;
+}
+
+.container p{
+
+    padding:  3px;
+    margin: 2px;
+  text-align: start;
+} */
+
+
+.container {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 11px;
+    padding-right:10px ;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    border: solid white 2px;
+    border-radius: 14px;
+    margin: 10px;
+
+  }
+  
+  .container p {
+    margin: 0; /* Remove default margin to avoid extra spacing */
+  }
+  

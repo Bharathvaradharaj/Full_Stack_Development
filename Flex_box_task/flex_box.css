@@ -1,0 +1,55 @@
+body{
+margin: 50px;
+
+background-color: pink;
+}
+
+.flex__header{  
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.flex__header h4{
+    padding-left: 12px;
+    border-bottom: solid gray 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: -25px;
+    margin-left: 423px;
+    margin-right: 325px;
+  
+
+}
+
+
+    
+    
+    .flex__image__sections {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 85px;
+        margin-left: 213px;
+        margin-right: 12%;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 45px;
+        flex-grow: 1;
+
+}
+
+.flex__image{
+    
+    padding: 16px;
+
+    
+width: 100px;
+  
+}
+
+.flex__image img{
+
+    border: solid black 2px;
+}
