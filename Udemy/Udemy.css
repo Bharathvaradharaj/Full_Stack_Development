@@ -65,7 +65,7 @@ body {
 .Udemy__s3 {
 
     display: flex;
-    gap: 15px;
+    gap: 26px;
     padding: 15px;
     align-items: center;
     cursor: pointer;
@@ -77,6 +77,15 @@ body {
     position: relative;
  }
 
+
+ .Udemy__s4 img{
+
+    width: 20px;
+    display: none;
+
+
+
+ }
  .MyLearning:hover .myLearning__s1{
     display: block;
 
@@ -143,11 +152,11 @@ background-color: white;
 .Udemy__sale__offer{
 
     border: solid black 2px;
-    padding: 30px;
+    padding: 17px;
     width: 28%;
     position: absolute;
-    top: 108px;
-    left: 85px;
+    top: 30px;
+    left: 31px;
     background-color: white;
 
     animation-name: zoom;
@@ -199,7 +208,9 @@ animation-fill-mode: forwards;
 .Udemy__courses__2,
 .Udemy__courses__3,
 .Udemy__courses__4 {
-    width: 250px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 
 
 }
@@ -278,7 +289,7 @@ animation-fill-mode: forwards;
     
     margin: 10px;
     flex-grow: 1;
-    flex-basis: 23%;
+    flex-basis: 20%;
 
 
 }
@@ -293,7 +304,7 @@ animation-fill-mode: forwards;
 .Udemy__popular__courses__7 img,
 .Udemy__popular__courses__8 img {
 
-    width: 250px;
+    width: 100%;
 }
 
 
@@ -332,4 +343,65 @@ animation-fill-mode: forwards;
     justify-content: space-between;
     align-items: center;
 
+}
+
+
+/* Media Quries */
+
+
+
+
+@media screen and (max-width:800px) {
+
+    body{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    
+    .Udemy__categories{
+
+        display: none;
+    }
+
+    .Udemy__courses__1,
+    .Udemy__courses__2,
+    .Udemy__courses__3,
+    .Udemy__courses__4{
+
+        flex-basis: 40%;
+    }
+
+
+
+    .Udemy__popular__courses__1,
+    .Udemy__popular__courses__2,
+    .Udemy__popular__courses__3,
+    .Udemy__popular__courses__4,
+    .Udemy__popular__courses__5,
+    .Udemy__popular__courses__6,
+    .Udemy__popular__courses__7,
+    .Udemy__popular__courses__8{
+
+        flex-basis: 40%;
+    }
+
+
+    .Udemy__s2, .Udemy__s3{
+
+        display: none;
+    }
+
+
+
+    .Udemy__s4 img{
+        display: block;
+    }
+
+    .Udemy__Header{
+
+        padding: 10px;
+    }
 }
