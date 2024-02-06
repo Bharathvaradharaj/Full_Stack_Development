@@ -1,0 +1,187 @@
+.header__overall {
+
+    max-width: 100%;
+    margin-top: 10px;
+
+}
+
+
+.Trip__header {
+    display: flex;
+    margin-left: 170px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header__s1,
+.header__s2,
+.header__s3 {
+
+    cursor: pointer;
+}
+
+.header__s1 img {
+
+    min-width: 0px;
+    max-width: 209px;
+}
+
+
+
+.header__s2 {
+
+    padding: 10px;
+
+    margin-right: 66px
+}
+
+.header__s2__1,
+.header__s2__4 {
+
+    padding: 15px;
+    margin: 10px;
+}
+
+.header__s2__2,
+.header__s2__3 {
+
+    margin: 10px;
+}
+
+
+
+
+.header__s2__1:hover {
+
+    background-color: rgb(128, 128, 128, 0.2);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.header__s2__2:hover {
+    padding: none;
+    border-bottom: solid black 1px;
+
+}
+
+.header__s2__3:hover {
+
+
+    padding: none;
+    border-bottom: solid black 1px;
+
+}
+
+
+.header__s2__4:hover {
+
+    background-color: rgb(128, 128, 128, 0.2);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+
+.header__s3 {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.header__s3__1 {
+
+    padding: 10px
+}
+
+
+.header__s3__1:hover {
+
+    padding: 10px;
+
+    background-color: rgb(128, 128, 128, 0.2);
+
+    border-radius: 30px;
+}
+
+
+.header__s3__1 img {
+
+    min-width: 0px;
+    max-width: 12px;
+
+
+}
+
+.header__s3__2 {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.header__s3__2:hover {
+
+    box-shadow: 10px 17px 29px 0px rgba(128, 128, 128, 0.5);
+
+
+}
+
+
+.Trip__section {
+
+    margin-left: 170px;
+    margin-right: 200px;
+}
+
+.Trip__section__s1 h1 {
+
+    font-size: 71px;
+    text-align: center;
+
+    margin-bottom: 0px;
+    margin-top: 58px;
+}
+
+.Trip__section__2 {
+    display: flex;
+}
+
+.Trip__section__2__s1 {
+    display: inline-block
+}
+
+
+.Trip__section__2__s1 img {
+
+    min-width: 0px;
+    max-width: 12px;
+}
+
+.Trip__section__2__s2 img {
+
+    min-width: 0px;
+    max-width: 12px;
+}
+.Trip__section__2__s3 img {
+
+    min-width: 0px;
+    max-width: 20ps;
+}
+.Trip__section__2__s4 img {
+
+    min-width: 0px;
+    max-width: 12px;
+}
+.Trip__section__2__s5 img {
+
+    min-width: 0px;
+    max-width: 12px;
+}
