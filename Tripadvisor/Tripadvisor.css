@@ -35,14 +35,14 @@
 
     padding: 10px;
 
-    margin-right: 66px
+    margin-right: 0%
 }
 
 .header__s2__1,
 .header__s2__4 {
 
     padding: 15px;
-    margin: 10px;
+    margin: 1px;
 }
 
 .header__s2__2,
@@ -136,52 +136,96 @@
 
 
 .Trip__section {
-
+    
     margin-left: 170px;
     margin-right: 200px;
+    
 }
 
-.Trip__section__s1 h1 {
-
-    font-size: 71px;
+.Trip__section__s1{
+font-size: 251%;
     text-align: center;
+}
 
+.Trip__section__s1 h1{
     margin-bottom: 0px;
-    margin-top: 58px;
 }
 
-.Trip__section__2 {
+.Trip__section__2{
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+   
+   
 }
 
-.Trip__section__2__s1 {
-    display: inline-block
+.Trip__section__2__s1,
+.Trip__section__2__s2,
+.Trip__section__2__s3,
+.Trip__section__2__s4,
+.Trip__section__2__s5 {
+
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding: 7px;
+    
+}
+
+.Trip__section__2__s1:hover{
+
+    border-bottom: solid black 2px;
+    padding: 7px;
+    
+}
+.Trip__section__2__s2:hover{
+
+    border-bottom: solid black 2px;
+    padding: 7px;
+}
+.Trip__section__2__s3:hover{
+
+    border-bottom: solid black 2px;
+    padding: 7px;
+}
+.Trip__section__2__s4:hover{
+
+    border-bottom: solid black 2px;
+    padding: 7px;
+}
+.Trip__section__2__s5:hover{
+
+    border-bottom: solid black 2px;
+    padding: 7px;
 }
 
 
-.Trip__section__2__s1 img {
+.Trip__section__searchall,
+.Trip__section__hotels,
+.Trip__section__things,
+.Trip__section__restaurants,
+.Trip__section__hh {
 
-    min-width: 0px;
-    max-width: 12px;
+    margin: 0px;
+    font-size: 20px;
 }
 
-.Trip__section__2__s2 img {
 
-    min-width: 0px;
-    max-width: 12px;
-}
-.Trip__section__2__s3 img {
 
-    min-width: 0px;
-    max-width: 20ps;
-}
-.Trip__section__2__s4 img {
+.Trip__section__2__s1__img,
+.Trip__section__2__s2__img,
+.Trip__section__2__s3__img,
+.Trip__section__2__s4__img,
+.Trip__section__2__s5__img {
 
-    min-width: 0px;
-    max-width: 12px;
-}
-.Trip__section__2__s5 img {
 
-    min-width: 0px;
-    max-width: 12px;
+    width: 23px;
+
 }
+
+
+
+
+
