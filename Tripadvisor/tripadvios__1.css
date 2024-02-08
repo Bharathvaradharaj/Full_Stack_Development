@@ -25,7 +25,6 @@
     justify-content: space-between;
     width: 62%;
 
-
 }
 
 .Trip__header__img1 {
@@ -50,28 +49,75 @@
 
 .Trip__header__list {
     display: none;
-
-
     justify-content: space-between;
-    padding: 0px;
-
-
+    padding: 6px;
 }
 
-.Trip__header__list li {
+
+/* .Trip__header__list li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    font-size: large;
+    cursor: pointer;
+} */
+
+
+.Discover,.Flight{
 
     list-style-type: none;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 13px;
     font-size: large;
+    cursor: pointer;
+}
+
+.Trips,.Review{
+
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+   
+    font-size: large;
+    cursor: pointer;
+
+}
+.Discover:hover{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    
+}
+.Flight:hover{
+    background-color: #F2F2F2;
+    border-radius: 30px;
+}
+
+.Trips:hover{
+    padding-bottom: none;
+    border-bottom: solid black 1px;
+    
 
 }
 
+.Review:hover{
+
+    padding-bottom: none;
+    border-bottom: solid black 1px;
+}
+
+/* .Trip__header__list li:hover{
+
+    background-color: #F2F2F2;
+    border-radius: 30px;
+} */
+
 .Trip__header__end__section {
-
-    display: flex;
-
     display: none;
-
     margin-right: 30px;
     gap: 20px;
 }
@@ -102,9 +148,12 @@
 }
 
 .Trip__section__2 h2 {
-
     font-size: 40px;
 }
+
+
+
+
 
 @media screen and (min-width:700px) {
 
@@ -122,8 +171,7 @@
     .Trip__menu__logo {
         display: flex;
         gap: 20px;
-
-        width: 0%;
+        width: fit-content;
         align-items: center;
 
 
@@ -131,53 +179,36 @@
 
     .Trip__header__img1 {
         width: 196px;
-        ;
+
     }
 }
 
 @media screen and (min-width:800px) {
 
+    /* .Trip__header__overall{
 
+    width: 50%;
+} */
 
     .Trip__header {
         display: flex;
         justify-content: space-between;
-
-
+        width: 100%;
     }
 
 
-.Trip__header__list__overall{
+    /* .Trip__header__list__overall {
 
-    margin-left: 100px;
-}
-
-
-    .Trip__header__list {
-
-        display: flex;
-
-       
+        margin-left: 100px;
+    } */
 
 
 
-    }
 
     .Trip__header__list li {
 
         text-align: center;
     }
-
-    .Trip__header__menubar {
-
-        display: none;
-    }
-
-
-
-
-
-
 }
 
 @media screen and (min-width:1000px) {
@@ -185,27 +216,119 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-
-margin-top: -10px;
-        margin-right: 20px;
-        margin-left: 215px;
+        margin-top: -10px;
+        /* margin-right: 20px;
+        margin-left: 215px; */
     }
 
+
+    .Trip__header__menubar {
+
+        display: none;
+    }
+
+    .Trip__header__list {
+
+        display: flex;
+    }
 
     .Trip__header__list__overall {
 
         display: flex;
-
-       margin-left: 20px;
-
-
-
-
-
+        /* margin-left: 20px; */
+        width: fit-content;
 
     }
 
 
+    .Trip__header__logo {
+
+        margin-left: 75px;
+    }
+
+}
 
 
+
+
+/* Trip__categories__section_css */
+
+
+.Trip__categories__section__{
+
+   display: flex;
+   margin-top: 100px;
+   gap: 20px;
+   width: 87%;
+   overflow-x: auto;
+
+  
+   
+  
+   transform: translateY(-50%);
+   box-sizing: border-box;
+  
+   overflow-x: scroll;
+  
+   white-space: nowrap;
+}
+
+.Categ__1 p{
+
+    margin: 5px;
+}
+
+.Categ__1{
+ 
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 9px;
+    margin: 10px;
+    flex-grow: 1;
+  
+}
+
+.Categ__2{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 9px;
+    flex-grow: 1;
+    
+}
+
+.Categ__3{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 9px;
+
+    flex-grow: 1;
+
+
+}
+.Categ__4{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 9px;
+
+    flex-grow: 1;
+
+
+}
+.Categ__5{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 9px;
+    flex-grow: 1;
+
+
+}
+.Categ__1 img,.Categ__2 img,.Categ__3 img,.Categ__4 img,.Categ__5 img{
+
+    width: 15px;
+    height: 16px;
 }
