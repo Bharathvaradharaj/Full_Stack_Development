@@ -138,6 +138,7 @@ padding-bottom: 10px;
 .header__s3__2:hover {
 
     box-shadow: 10px 17px 29px 0px rgba(128, 128, 128, 0.5);
+    opacity: 0.5;
 
 
 }
@@ -317,13 +318,14 @@ padding-bottom: 13px;
 
     display: flex;
     justify-content: center;
-    position: relative;
+   
     flex-basis: 100%;
 }
 .trip_image img{
 background-color: #D8D4FB;
     width: 83%;
     border-radius: 10px;
+    position: relative;
 }
 
 
@@ -332,9 +334,10 @@ background-color: #D8D4FB;
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 28px;
-   flex-basis: 50%;
+    margin-top: 91px;
+    max-width: 19%;
+    max-height: 20%;
+    margin-right: 618px;
 }
 
 .trip_image__s1{
@@ -355,10 +358,11 @@ background-color: #D8D4FB;
 .trip_image__s2{
 
     font-size: xx-large;
-    width: 20%;
+    width: 61%;
 }
 
 .trip_image__s3{
 
-    width: 50%;
+
+    width: 112%;
 }
