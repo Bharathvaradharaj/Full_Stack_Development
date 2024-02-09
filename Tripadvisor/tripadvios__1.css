@@ -65,7 +65,8 @@
 } */
 
 
-.Discover,.Flight{
+.Discover,
+.Flight {
 
     list-style-type: none;
     padding-left: 20px;
@@ -76,35 +77,38 @@
     cursor: pointer;
 }
 
-.Trips,.Review{
+.Trips,
+.Review {
 
     list-style-type: none;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 12px;
-   
+
     font-size: large;
     cursor: pointer;
 
 }
-.Discover:hover{
+
+.Discover:hover {
     background-color: #F2F2F2;
     border-radius: 30px;
-    
+
 }
-.Flight:hover{
+
+.Flight:hover {
     background-color: #F2F2F2;
     border-radius: 30px;
 }
 
-.Trips:hover{
+.Trips:hover {
     padding-bottom: none;
     border-bottom: solid black 1px;
-    
+
 
 }
 
-.Review:hover{
+.Review:hover {
 
     padding-bottom: none;
     border-bottom: solid black 1px;
@@ -254,81 +258,154 @@
 /* Trip__categories__section_css */
 
 
-.Trip__categories__section__{
+.Trip__categories__section__ {
 
-   display: flex;
-   margin-top: 100px;
-   gap: 20px;
-   width: 87%;
-   overflow-x: auto;
-
-  
-   
-  
-   transform: translateY(-50%);
-   box-sizing: border-box;
-  
-   overflow-x: scroll;
-  
-   white-space: nowrap;
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    width: 87%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    overflow-x: scroll;
+    white-space: nowrap;
+    align-items: center;
+    height: 80px;
+    margin-left: 20px;
 }
 
-.Categ__1 p{
 
-    margin: 5px;
+
+
+
+.Trip__categories__section__overall {
+    display: flex;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    height: 40px;
+
 }
 
-.Categ__1{
- 
+
+.Categ__1 {
+
     flex-direction: row;
     align-items: center;
     display: flex;
     gap: 9px;
+    flex-grow: 1;
     margin: 10px;
-    flex-grow: 1;
-  
+    height: 34px;
 }
 
-.Categ__2{
+
+
+
+.searchimg {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: fit-content;
+}
+
+.Categ__1:hover {
+    border-bottom: solid black 1px;
+    padding-bottom: 3px;
+}
+
+.Categ__2 {
     flex-direction: row;
     align-items: center;
     display: flex;
     gap: 9px;
     flex-grow: 1;
-    
+    margin: 10px;
+    height: 34px;
+
 }
 
-.Categ__3{
+.Categ__2:hover {
+    border-bottom: solid black 1px;
+    padding-bottom: 2px;
+}
+
+.Categ__3 {
     flex-direction: row;
     align-items: center;
     display: flex;
     gap: 9px;
 
     flex-grow: 1;
+    margin: 10px;
+    height: 34px;
 
 
 }
-.Categ__4{
+
+.Categ__3:hover {
+    border-bottom: solid black 1px;
+    padding-bottom: none;
+}
+
+.Categ__4 {
     flex-direction: row;
     align-items: center;
     display: flex;
     gap: 9px;
 
     flex-grow: 1;
+    margin: 10px;
+    height: 34px;
 
 
 }
-.Categ__5{
+
+.Categ__4:hover {
+    border-bottom: solid black 1px;
+    padding-bottom: none;
+}
+
+.Categ__5 {
     flex-direction: row;
     align-items: center;
     display: flex;
     gap: 9px;
     flex-grow: 1;
+    margin: 10px;
+    height: 34px;
 
 
 }
-.Categ__1 img,.Categ__2 img,.Categ__3 img,.Categ__4 img,.Categ__5 img{
+
+.Categ__5:hover {
+    border-bottom: solid black 1px;
+    padding-bottom: none;
+}
+
+.Categ__1 img,
+.Categ__2 img,
+.Categ__3 img,
+.Categ__4 img,
+.Categ__5 img {
 
     width: 15px;
     height: 16px;
+}
+
+@media screen and (min-width:700px) {
+
+    .Trip__categories__section__ {
+        display: flex;
+        margin-top: 100px;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
+        justify-content: space-around;
+        font-size: large;
+    }
+
+    .Categ__1 {
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
