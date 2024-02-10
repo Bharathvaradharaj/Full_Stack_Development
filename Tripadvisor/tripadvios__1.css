@@ -1,3 +1,10 @@
+body {
+
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
 .Trip__header__overall {
 
     display: flex;
@@ -54,17 +61,6 @@
 }
 
 
-/* .Trip__header__list li {
-    list-style-type: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 12px;
-    padding-bottom: 13px;
-    font-size: large;
-    cursor: pointer;
-} */
-
-
 .Discover,
 .Flight {
 
@@ -113,12 +109,6 @@
     padding-bottom: none;
     border-bottom: solid black 1px;
 }
-
-/* .Trip__header__list li:hover{
-
-    background-color: #F2F2F2;
-    border-radius: 30px;
-} */
 
 .Trip__header__end__section {
     display: none;
@@ -216,6 +206,12 @@
 }
 
 @media screen and (min-width:1000px) {
+
+
+
+
+
+
     .Trip__header {
         display: flex;
         justify-content: space-between;
@@ -257,11 +253,15 @@
 
 /* Trip__categories__section_css */
 
+.trip__body__section {
+    display: none;
+}
+
 
 .Trip__categories__section__ {
 
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 20px;
     width: 87%;
     transform: translateY(-50%);
@@ -282,6 +282,7 @@
     padding-top: 2px;
     padding-bottom: 3px;
     height: 40px;
+    position: relative;
 
 }
 
@@ -295,6 +296,7 @@
     flex-grow: 1;
     margin: 10px;
     height: 34px;
+    margin: 10px 15px 1px 20px;
 }
 
 
@@ -319,6 +321,7 @@
     flex-grow: 1;
     margin: 10px;
     height: 34px;
+    margin: 10px 15px 1px 20px;
 
 }
 
@@ -336,6 +339,7 @@
     flex-grow: 1;
     margin: 10px;
     height: 34px;
+    margin: 10px 15px 1px 20px;
 
 
 }
@@ -355,7 +359,7 @@
     margin: 10px;
     height: 34px;
 
-
+    margin: 10px 15px 1px 20px;
 }
 
 .Categ__4:hover {
@@ -371,6 +375,7 @@
     flex-grow: 1;
     margin: 10px;
     height: 34px;
+    margin: 10px 15px 1px 20px;
 
 
 }
@@ -392,20 +397,155 @@
 
 @media screen and (min-width:700px) {
 
+
+
+    .trip__body__section {
+
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+
+
+        .where__to {
+            font-family: 'Jost', sans-serif;
+            font-size: 60PX;
+            text-align: center;
+            width: fit-content;
+        }
+    }
+
     .Trip__categories__section__ {
         display: flex;
-        margin-top: 100px;
+        margin-top: 10px;
         gap: 20px;
-        width: 100%;
+        width: -webkit-fill-available;
         align-items: center;
         overflow-x: hidden;
         justify-content: space-around;
         font-size: large;
+
+        margin-left: 20px;
     }
 
-    .Categ__1 {
-
-        margin-left: 10px;
-        margin-right: 10px;
+    .Trip__categories__section__overall {
+        width: fit-content;
     }
 }
+
+.Trip__search__section__overall {
+
+
+    margin-top: -20px;
+
+}
+
+
+.Trip__search__section__1 {
+    width: 87%;
+    border: solid #E0E0E0 2px;
+    margin-left: 24px;
+    border-radius: 10px;
+    padding: 9px 0px 13px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.Trip__search__section {
+    display: flex;
+    gap: 10px;
+    margin: 4px 0px 0px 0px;
+    border-bottom: solid #E0E0E0 2px;
+    padding: 20px 0px 15px 14px;
+    width: 89%;
+
+
+}
+
+
+
+
+.search__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.search__area {
+    width: 93%;
+    outline: none;
+    border: none;
+    font-size: larger;
+
+}
+
+.Search__button__overall {
+
+    width: 93%;
+    display: grid;
+    padding: 17px 5px 10px 10px;
+    margin: 2px 0px 0px 0px;
+
+}
+
+.search__btn {
+
+    border-radius: 50px;
+    background-color: #84E9BD;
+    padding: 18px 31px 19px 25px;
+}
+
+@media screen and (min-width:700px) {
+
+
+    .Trip__search__section__overall{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .Trip__search__section__1 {
+
+        display: flex;
+        width: 87%;
+        border: solid #E0E0E0 2px;
+        margin-left: 24px;
+        border-radius: 50px;
+        padding: 5px 0px 5px 0px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+
+    .Trip__search__section {
+        display: flex;
+        gap: 10px;
+        margin: 5px 0px 0px 0px;
+        border-bottom: none;
+        padding: 3px 0px 15px 14px;
+        width: 89%;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    }
+    
+
+    .Search__button__overall {
+        width: 15%;
+        display: grid;
+        padding: 0px 0px 0px 0px;
+        margin: 1px 10px 0px 0px;
+
+
+
+    }
+
+    .search__btn {
+
+        border-radius: 50px;
+        background-color: #84E9BD;
+        padding: 0px 0px 0px 0px
+    }
+
