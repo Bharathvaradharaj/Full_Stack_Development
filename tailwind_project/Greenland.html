@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenland</title>
     <!-- Tailwind CSS link -->
-    <link rel="stylesheet" href="./style.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
     <!-- NavBar section and Resiponsive  -->
 
-    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
 
         <h1 class="text-2xl"> Greenden </h1>
 
@@ -30,13 +31,13 @@
 
 
                 <li>
-                    <a href="#"> Home</a>
+                    <a href="#" class="hover:underline hover:text-black"> Home</a>
                 </li>
                 <li>
-                    <a href="#"> Products</a>
+                    <a href="./Product_page.html" class="hover:underline"> Products</a>
                 </li>
                 <li>
-                    <a href="#"> Contact</a>
+                    <a href="./Contact_us.html" class="hover:underline"> Contact</a>
                 </li>
             </ul>
         </div>
@@ -44,15 +45,15 @@
     </nav>
 
     <!-- Header section -->
-    <header class="bg-green-100 p-5 flex justify-center gap-2 ">
+    <header class="bg-green-100 p-5 md:p-10  flex justify-center gap-2  ">
 
 
         <div class="flex flex-col justify-center  ">
-            <div class="mt-1 mb-9">
+            <div class="mt-1 mb-5">
                 <p> We offer you a wide range of Artifical and Natural Flowers</p>
             </div>
             <div>
-                <h2 class="font-bold mt-2 text-2xl">Plant for your Interior</h2>
+                <h2 class="font-bold mt-1 text-2xl md:text-4xl">Plant for your Interior</h2>
             </div>
             <div class="mt-2">
 
@@ -84,6 +85,9 @@
         <p>This site for those who admire the beauty and harmony of nature</p>
 
     </div>
+
+
+
     <section class="p-7 md:flex">
 
         <div class="md:flex">
@@ -138,16 +142,129 @@
                     maiores
                     culpa. Rerum facere culpa vero error.</p>
 
-
-
-
             </div>
 
 
         </div>
 
     </section>
+    <!-- Best Seller -->
+    <section class="p-3 mb-5">
+        <div class="text-3xl font-bold text-center mb-5">
 
+            <h1> Best Seller</h1>
+        </div>
+
+        <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+            <div class="text-center ">
+
+                <img src="./Images/Best Seller_1.png" class="inline hover:shadow-2xl transform hover:-translate-y-2 ">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+
+            <div class="text-center ">
+
+                <img src="./Images/Best Seller_2.png" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+
+            <div class="text-center ">
+
+                <img src="./Images/Best Seller_3.png" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+
+            <div class="text-center ">
+
+                <img src="./Images/Best Seller_2.png" class="inline hover:shadow-2xl transform hover:-translate-y-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <!-- Customer review -->
+    <section>
+
+
+
+        <div class="text-center text-4xl font-bold">
+            <h1> Customer Reviews</h1>
+        </div>
+        <div class="pl-5 mt-8 gap-5 mb-5">
+            <div class="bg-green-900 text-white p-5 container  mb-5">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus adipisci reiciendis
+                    doloremque
+                    commodi incidunt consequuntur officia libero debitis tempore id, quos distinctio nemo porro ab ex
+                    cupiditate. Incidunt, perferendis!</p>
+                <p class="text-yellow-300"> Genny Mathew</p>
+            </div>
+            <div class="bg-green-900 text-white p-5 container  mb-5">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus adipisci reiciendis
+                    doloremque
+                    commodi incidunt consequuntur officia libero debitis tempore id, quos distinctio nemo porro ab ex
+                    cupiditate. Incidunt, perferendis!</p>
+                <p class="text-yellow-300"> Jim</p>
+            </div>
+            <div class="bg-green-900 text-white p-5 container  mb-5">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus adipisci reiciendis
+                    doloremque
+                    commodi incidunt consequuntur officia libero debitis tempore id, quos distinctio nemo porro ab ex
+                    cupiditate. Incidunt, perferendis!</p>
+                <p class="text-yellow-300"> Parker</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Join  -->
+
+    <section>
+        <div class="flex flex-col items-center gap-5 mt-10">
+            <h1 class="text-center font-bold text-3xl">Join Our News Letter</h1>
+            <p class="text-center"> Sing up for our email newspaper to get exclusive discounts,updates and more</p>
+            <input type="text" class="border border-black w-4/5">
+            <button class="p-3 bg-black text-white underline mb-5"> Subscribe </button>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- footer -->
+
+
+    <section>
+
+        <div class="bg-green-100 p-8 flex flex-col  gap-5">
+            <h1 class="font-bold text-4xl  gap-5">Greenden</h1>
+            <p> The Standrad chunk of lorem ipsum used since the 1500s is reprodused below for those interest</p>
+            <p>@ 2023 Greenday.com</p>
+        </div>
+    </section>
 </body>
 
 </html>
